@@ -77,7 +77,7 @@ for index in route:
     latitude_list.append(place.latitude)
     longitude_list.append(place.longitude)
 
-gmapOne.scatter(latitude_list, longitude_list, '#ff0000', size=40, marker=False)
+gmapOne.scatter(latitude_list, longitude_list, '#ff0000', size=40, marker=True)
 gmapOne.plot(latitude_list, longitude_list,'cornflowerblue', edge_width=2.5)
 gmapOne.draw("map.html")
 
